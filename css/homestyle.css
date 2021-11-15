@@ -27,4 +27,23 @@
     grid-row-gap: 24px;
     grid-template-columns: 1.5fr;
     grid-template-rows: auto;
+    box-sizing: border-box;
+}
+
+.works-item-1{
+    display: flexbox;
+    text-align: center;
+}
+
+.work-image-item{
+    display: flex;
+    height: 100%;
+    margin-bottom: 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: center;
+    -webkit-box-align: stretch;
+    flex-direction: column;
+    justify-content: center;
+    
 }
