@@ -1,0 +1,17 @@
+.home-nav{
+    display: flex;
+    padding: 24px 24px;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.home-nav-items{
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-box-align: center;
+    -moz-box-flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
